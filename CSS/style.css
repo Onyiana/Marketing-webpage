@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro';
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 6rem;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-weight: bold;
+    gap: 40px;
+    color: #242D52;
+    cursor: pointer;
+}
+
+.navlinks a{
+    text-decoration: none;
+}
+
+.navbar button{
+    padding: 10px  18px;
+    border-radius: 20px;
+    background-color: #F25F3A;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    box-shadow: 1px 1px gray;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar button:hover{
+    box-shadow: 0 3px 5px 2px rgb(168, 167, 167);
+}
+
+.purchase{
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 6rem;
+    margin-right: 6rem;   
+}
+
+.purchaseTxt h1{
+    width: 60% ;
+    font-size: 38px;
+    margin: 60px 0;
+    color: #242D52;
+}
+
+.purchaseTxt p{
+    width: 80% ;
+    font-size: 18px;
+   color: #929292;
+}
+
+.purchaseTxt button{
+    margin-top: 1rem;
+    padding: 10px  18px;
+    border-radius: 20px;
+    background-color: #F25F3A;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    box-shadow: 1px 1px gray;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.purchaseTxt button:hover{
+    box-shadow: 0 3px 5px 2px rgb(168, 167, 167);
+}
+
+.purchaseImgs img{
+    height: 85%;
+}
+
+.productSection{
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    margin: 2rem 5rem;
+    width: 90%;
+}
+
+.productsTxt h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.pTag {
+    font-weight: 400;
+    font-size: 15px;
+    color: #929292;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.row h4, p{
+    margin-bottom: 20px ;
+}
+
+.row p{
+    color: #929292;
+    font-size:15px ;
+}
+
+.num button{
+    background-color:#F25F3A ;
+    padding: 5px  16px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.avatarTxt{
+    text-align: center;
+    margin: 4rem 0;
+    color: #242D52;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.avatarTxt button{
+    padding: 10px  18px;
+    border-radius: 20px;
+    background-color: #F25F3A;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    box-shadow: 1px 1px gray;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.avatarImags{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 3rem;
+}
+
+.avatarImags .avatar1{
+    background-color: hsl(0, 0%, 98%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-bottom: 30px;
+}
+
+.avatarImags .avatar1:hover{
+    box-shadow: 0 5px 5px rgba(1 1 1 /15%);
+}
+
+.avatarImags p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #929292;
+}
+
+.avatarImags h4, p{
+    margin-top: 1rem;
+}
+
+.careerSections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF4213;
+    padding: 2rem 8rem;
+    color: #fff;
+}
+
+.careerSections h1{
+    width: 65%;
+    font-size: 30px
+}
+
+.careerSections button{
+   background-color: #fff;
+   color: #FF4213;
+   padding: 14px 27px;
+   border-radius: 30px;
+   font-size: 17px;
+   border: none;
+   outline: none;
+}
+
+.footerSection{
+    background-color: #1D1E25;
+    display: flex;
+    padding: 2.5rem 3.5rem;
+    gap: 6rem;
+    color: #fff;
+}
+
+.footerlogoPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.footerMediaPart a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.footerMenuBar{
+    display: flex;
+    justify-content: center;
+    margin: 0 5rem;
+    gap: 12rem;
+}
+
+.footerMenuBar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footerMenuBar a:hover{
+ color: #F25F3A;
+}
+
+.footerMenuBar .menu1, .menu2{
+    list-style: none;
+}
+
+.formBox input{
+   width: 70%;
+   padding: 8px;
+   border-radius: 20px;
+   border: none;
+   outline: none;
+}
+
+.formBox button{
+    background-color:#F25F3A ;
+    padding: 5px  16px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+#bottomP{
+    font-size: 13px;
+}
+
