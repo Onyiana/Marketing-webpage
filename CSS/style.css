@@ -233,7 +233,7 @@ html, body{
     display: flex;
     justify-content: center;
     margin: 0 5rem;
-    gap: 12rem;
+    gap: 16rem;
 }
 
 .footerMenuBar a{
@@ -250,20 +250,21 @@ html, body{
 }
 
 .formBox input{
-   width: 70%;
-   padding: 8px;
-   border-radius: 20px;
-   border: none;
-   outline: none;
+    height: 30px;
+    width: 230px;
+    border-radius: 16px;
+    text-align: left;
+    border: none;
+    padding: 3px;
 }
 
 .formBox button{
     background-color:#F25F3A ;
-    padding: 5px  16px;
-    border-radius: 20px;
-    border: none;
     color: #fff;
-    font-size: 15px;
+    height: 30px;
+    width: 60px;
+    border-radius: 16px;
+    border: none;
 }
 
 #bottomP{
