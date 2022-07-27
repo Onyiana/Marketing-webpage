@@ -5,6 +5,11 @@
     font-family: 'Be Vietnam Pro';
 }
 
+html, body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -263,5 +268,21 @@
 
 #bottomP{
     font-size: 13px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #c51a00;
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 4px;
 }
 
