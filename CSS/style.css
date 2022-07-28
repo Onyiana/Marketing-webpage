@@ -272,6 +272,13 @@ html, body{
     font-size: 13px;
 }
 
+.hamburger{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
 #myBtn {
     display: none;
     position: fixed;
@@ -364,7 +371,8 @@ html, body{
 
 @media screen and (max-width:768px) {
     .navbar{
-        padding: 1.5rem 2rem;
+        width: 100%;
+        padding: 1rem 2rem;
     }
 
     .navbar img{
@@ -372,8 +380,7 @@ html, body{
     }
 
     .navbar button{
-        padding: 8px  10px;
-        font-size: 12px;
+        display: none;
     }
 
     .navlinks {
@@ -460,6 +467,34 @@ html, body{
         width: 170px;
         border-radius: 16px;
         padding: 3px;
+    }
+
+    .hamburger{
+        display: block;
+        font-size: 25px;
+    }
+
+    .ri-close-circle-fill{
+        display: none;
+    }
+    
+    .navlinks a{
+        color: #fff;
+    }
+
+    .navlinks{
+        background-color: #F3603C;
+        flex-direction: column;
+        position: absolute;
+        top: -50%;
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        z-index: 1;
+        padding: 2rem;
+        transition: .5s;
+        border-radius: 10px;
     }
 }
 
@@ -569,4 +604,6 @@ html, body{
     .footerMenuBar{
         gap: 2.5rem;
     }
+
+
 }
