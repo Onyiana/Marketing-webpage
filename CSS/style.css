@@ -287,3 +287,72 @@ html, body{
     border-radius: 4px;
 }
 
+
+@media screen and (max-width:992px) {
+    .navbar{
+        padding: 1.5rem 3.5rem;
+    }
+
+    .navbar button{
+        padding: 8px  15px;
+        font-size: 14px;
+    }
+
+    .purchase{
+       gap: 20rem;
+       margin-left: 4rem;
+       margin-right: 4rem;  
+    }
+
+    .purchaseTxt h1{
+        margin: 50px 0;
+        width: 200% ;
+        font-size: 35px;
+    }
+    
+    .purchaseTxt p{
+        width: 250% ;
+        font-size: 17px;
+    }
+
+    .purchaseImgs img{
+        height: 70%;
+    }
+
+    .purchaseTxt button{
+        padding: 8px  15px;
+        font-size: 14px;
+    }
+
+    .productSection{
+        gap: 15rem;
+        margin: 2rem 4rem;
+    }
+
+    .productsTxt h1{
+        width: 200%;
+    }
+
+    .pTag {
+        width: 150%;
+    }
+
+    .careerSections h1{
+        font-size: 25px
+    }
+    
+    .careerSections button{
+       padding: 12px 20px;
+       font-size: 15px;
+    }
+
+    .footerSection{
+        padding: 2.5rem 2.5rem;
+        gap: 2rem;
+    }
+
+    .footerMenuBar{
+        margin: 0 3rem;
+        gap: 8rem;
+    }
+}
