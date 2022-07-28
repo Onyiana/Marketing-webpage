@@ -512,3 +512,60 @@ html, body{
         display: none;
     }
 }
+
+@media screen and (max-width:375px) {
+    .purchase{
+        margin-left: 3.5rem;
+        margin-right: 3.5rem; 
+    }
+
+    .purchaseTxt h1{
+        width: 120% ;
+        font-size: 30px;
+    }
+
+    .purchaseTxt p{
+        width: 115% ;
+        font-size: 15px;
+    }
+
+    .purchaseImgs img{
+       width: 115%;
+       margin: 0;
+    }
+
+    .productSection{
+        margin: 2rem 2rem;
+    }
+
+    .productsTxt h1{
+        font-size: 25px;
+        
+    }
+    
+    .avatarTxt button{
+        padding: 10px  15px;
+        font-size: 13px;
+    }
+    
+    .careerSections h1{
+        font-size: 20px;
+    }
+
+    .careerSections button{
+       padding: 7px 10px;
+       font-size: 12px;
+    } 
+
+    #bottomP{
+        display: none;
+    }
+
+    .footerSection{
+        gap: 1rem;
+    }
+
+    .footerMenuBar{
+        gap: 2.5rem;
+    }
+}
