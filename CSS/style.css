@@ -472,6 +472,7 @@ html, body{
     .hamburger{
         display: block;
         font-size: 25px;
+        margin-left: 10rem;
     }
 
     .ri-close-circle-fill{
@@ -604,6 +605,4 @@ html, body{
     .footerMenuBar{
         gap: 2.5rem;
     }
-
-
 }
