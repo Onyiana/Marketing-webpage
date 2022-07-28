@@ -462,3 +462,53 @@ html, body{
         padding: 3px;
     }
 }
+
+@media screen and (max-width:576px) {
+    .purchaseTxt h1{
+        width: 105% ;
+    }
+    
+    .purchaseImgs img{
+        width: 95%;
+        margin-left:7% ;
+    }
+
+    .productsTxt h1{
+        width: 100%;
+    }
+
+    .careerSections{
+        padding: 2rem 2rem;
+    }
+    
+    .careerSections button{
+       padding: 7px 8px;
+    }
+
+    .formBox{
+        display: none;
+    }
+
+    .footerlogoPart{
+        font-size: 14px;
+        margin-bottom: 2rem;
+    }
+
+    .footerMediaPart a{
+        font-size: 20px;
+    }
+
+    .footerSection{
+        padding: 2.5rem 2rem;
+        gap: 2rem;
+    }
+
+    .footerMenuBar{
+        margin: 10px 0;
+        gap: 2.5rem;
+    }
+
+    .footerMenuBar .abtUs{
+        display: none;
+    }
+}
