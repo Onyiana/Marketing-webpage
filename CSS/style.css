@@ -355,4 +355,8 @@ html, body{
         margin: 0 3rem;
         gap: 8rem;
     }
+
+    #bottomP{
+        font-size: 12px;
+    }
 }
