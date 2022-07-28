@@ -515,8 +515,9 @@ html, body{
 
 @media screen and (max-width:375px) {
     .purchase{
-        margin-left: 3.5rem;
-        margin-right: 3.5rem; 
+        margin-top: 4rem;
+        margin-left: 3rem;
+        margin-right: 3rem; 
     }
 
     .purchaseTxt h1{
@@ -525,12 +526,12 @@ html, body{
     }
 
     .purchaseTxt p{
-        width: 115% ;
+        width: 110% ;
         font-size: 15px;
     }
 
     .purchaseImgs img{
-       width: 115%;
+       width: 110%;
        margin: 0;
     }
 
