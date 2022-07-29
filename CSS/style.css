@@ -582,6 +582,10 @@ html, body{
         text-align: center;
     }
 
+    .pTag {
+        width: 105%;
+    }
+
     .Num{
         padding: 5px  14px;
         font-size: 12px;
@@ -594,7 +598,7 @@ html, body{
 
     .row p{
         margin-left: 0;
-        width: 95%;
+        width: 100%;
     }
     .avatarTxt button{
         padding: 10px  15px;
