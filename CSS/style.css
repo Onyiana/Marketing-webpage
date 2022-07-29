@@ -51,8 +51,7 @@ html, body{
 .purchase{
     display: flex;
     margin-top: 10rem;
-    margin-left: 6rem;
-    margin-right: 6rem;   
+    padding: 0 6rem;
 }
 
 .purchaseTxt h1{
@@ -108,10 +107,13 @@ html, body{
     color: #929292;
 }
 
-.row{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+.Num{
+    background-color:#F25F3A ;
+    padding: 5px  15px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
 }
 
 .row h4, p{
@@ -119,18 +121,10 @@ html, body{
 }
 
 .row p{
+    margin-left: 3rem;
     color: #929292;
     font-size:15px ;
-}
-
-.num button{
-    background-color:#F25F3A ;
-    padding: 5px  16px;
-    border-radius: 20px;
-    border: none;
-    color: #fff;
-    font-size: 17px;
-}
+} 
 
 .avatarTxt{
     text-align: center;
@@ -308,8 +302,7 @@ html, body{
 
     .purchase{
        gap: 20rem;
-       margin-left: 4rem;
-       margin-right: 4rem;  
+       padding: 0 4rem; 
     }
 
     .purchaseTxt h1{
@@ -392,10 +385,10 @@ html, body{
     }
 
     .purchase{
-        flex-direction: column;
-        gap: 2rem;
-        margin-left: 5rem;
-        margin-right: 5rem; 
+        flex-direction:column-reverse;
+        gap: 1rem;
+        margin-top: 2rem;
+        padding: 0 5rem;
     }
 
     .purchaseTxt h1{
@@ -422,8 +415,8 @@ html, body{
         width: 100%;
     }
 
-    .num button{
-        padding: 5px  10px;
+    .Num{
+        padding: 5px  15px;
         font-size: 14px;
     }
 
@@ -551,9 +544,7 @@ html, body{
 
 @media screen and (max-width:375px) {
     .purchase{
-        margin-top: 4rem;
-        margin-left: 3rem;
-        margin-right: 3rem; 
+        padding: 0 3rem; 
     }
 
     .purchaseTxt h1{
@@ -567,19 +558,33 @@ html, body{
     }
 
     .purchaseImgs img{
-       width: 110%;
-       margin: 0;
+       width: 117%;
+       margin: auto;
     }
 
     .productSection{
-        margin: 2rem 2rem;
+        margin: 2rem 2.5rem;
     }
 
     .productsTxt h1{
         font-size: 25px;
-        
+        text-align: center;
     }
-    
+
+    .Num{
+        padding: 5px  14px;
+        font-size: 12px;
+    }
+
+    .row h4{
+        background-color: #ffa99488;
+        font-size: 14.5px;
+    }
+
+    .row p{
+        margin-left: 0;
+        width: 95%;
+    }
     .avatarTxt button{
         padding: 10px  15px;
         font-size: 13px;
