@@ -324,7 +324,7 @@ html, body{
         padding: 8px  15px;
         font-size: 14px;
     }
-
+    
     .productSection{
         gap: 15rem;
         margin: 2rem 4rem;
@@ -338,6 +338,9 @@ html, body{
         width: 150%;
     }
 
+    .row p{
+        margin-left: 0;
+    }
     .careerSections h1{
         font-size: 25px
     }
