@@ -331,16 +331,21 @@ html, body{
     }
 
     .productsTxt h1{
-        width: 200%;
-    }
-
-    .pTag {
         width: 150%;
     }
 
-    .row p{
-        margin-left: 0;
+    .pTag {
+        width: 120%;
+        font-size: 16px;
     }
+    .row h4{
+        width: 100%;
+    }
+    .row p{
+        width: 80%;
+        font-size: 16px;
+    }
+
     .careerSections h1{
         font-size: 25px
     }
