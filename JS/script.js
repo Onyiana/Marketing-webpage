@@ -24,7 +24,7 @@ const menuOpen = document.querySelector('.ri-menu-add-line')
 const menuClose = document.querySelector('.ri-close-circle-fill')
 const navMenu = document.querySelector('.navlinks')
 menuOpen.addEventListener('click', function(){
-    navMenu.style.top = '40%'
+    navMenu.style.top = '50'
     menuOpen.style.display = 'none'
     menuClose.style.display = 'block'
 })
