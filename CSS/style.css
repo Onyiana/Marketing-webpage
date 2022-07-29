@@ -377,7 +377,7 @@ html, body{
     }
 
     .navlinks {
-       gap: 30px;
+       gap: 20px;
     }
 
     .navlinks a{
@@ -480,11 +480,11 @@ html, body{
         background-color: #F3603C;
         flex-direction: column;
         position: absolute;
-        top: -50%;
+        top: -35%;
         right: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 300px;
+        width: 220px;
         z-index: 1;
         padding: 2rem;
         transition: .5s;
@@ -558,8 +558,8 @@ html, body{
     }
 
     .purchaseImgs img{
-       width: 117%;
-       margin: auto;
+       width: 125%;
+       margin-left: -1.5rem;
     }
 
     .productSection{
