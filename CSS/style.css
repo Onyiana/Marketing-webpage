@@ -204,9 +204,12 @@ html, body{
 .footerSection{
     background-color: #1D1E25;
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 2.5rem 3.5rem;
     gap: 6rem;
     color: #fff;
+    position: relative;
 }
 
 .footerlogoPart{
@@ -234,6 +237,17 @@ html, body{
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+}
+
+.menu1{
+    display: grid;
+    gap: 10px;
+}
+
+.menu2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .footerMenuBar a:hover{
@@ -287,6 +301,10 @@ html, body{
     cursor: pointer;
     padding: 7px;
     border-radius: 4px;
+}
+
+#bottomP2{
+    display: none;
 }
 
 
@@ -355,8 +373,17 @@ html, body{
        font-size: 15px;
     }
 
+    .bottomLogoandSocialIcon{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
     .footerSection{
-        padding: 2.5rem 2.5rem;
+        flex-direction: column-reverse;
+        padding: 2.5rem;
         gap: 2rem;
     }
 
@@ -366,7 +393,18 @@ html, body{
     }
 
     #bottomP{
-        font-size: 12px;
+        display: none;
+    }
+
+    #bottomP2{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        font-size: 13px;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 15px;
     }
 }
 
@@ -398,7 +436,7 @@ html, body{
         margin-top: 2rem;
         padding: 0 5rem;
     }
-
+    
     .purchaseTxt h1{
         width: 100% ;
     }
@@ -449,17 +487,17 @@ html, body{
     }
     
     .footerMediaPart a{
-        font-size: 23px;
+        font-size: 27px;
+        margin: 0  10px;
     }
 
     .footerSection{
         padding: 2.5rem 2rem;
-        gap:none;
     }
 
     .footerMenuBar{
         margin:0  2rem;
-        gap: 3.5rem;
+        gap: 10rem;
     }
 
     .footerMenuBar a{
@@ -468,7 +506,7 @@ html, body{
 
     .formBox input{
         height: 30px;
-        width: 170px;
+        width: 250px;
         border-radius: 16px;
         padding: 3px;
     }
@@ -491,7 +529,7 @@ html, body{
         background-color: #F3603C;
         flex-direction: column;
         position: absolute;
-        top: -50%;
+        top: -30%;
         right: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -525,17 +563,13 @@ html, body{
        padding: 7px 8px;
     }
 
-    .formBox{
-        display: none;
-    }
-
     .footerlogoPart{
-        font-size: 14px;
+        font-size: 17px;
         margin-bottom: 2rem;
     }
 
     .footerMediaPart a{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .footerSection{
@@ -546,10 +580,6 @@ html, body{
     .footerMenuBar{
         margin: 10px 0;
         gap: 2.5rem;
-    }
-
-    .footerMenuBar .abtUs{
-        display: none;
     }
 }
 
@@ -592,6 +622,8 @@ html, body{
     }
 
     .row h4{
+        border-radius: 10px 0 0 10px;
+        padding: 3px 0;
         background-color: #ffa99488;
         font-size: 14.5px;
     }
@@ -622,9 +654,14 @@ html, body{
     }
 
     .footerSection{
+        padding-bottom:-18rem;
         gap: 1rem;
     }
 
+    .formBox input{
+        width: 240px;
+
+    }
     .footerMenuBar{
         gap: 2.5rem;
     }
