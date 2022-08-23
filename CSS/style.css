@@ -33,7 +33,6 @@ html, body{
     list-style: none;
     font-weight: bold;
     gap: 40px;
-    cursor: pointer;
 }
 
 .navlinks a{
